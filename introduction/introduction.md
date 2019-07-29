@@ -29,7 +29,8 @@ size: 16:9
 以上[アクセシビリティとは](https://waic.jp/knowledge/accessibility/)より
 
 
-https://www.slideshare.net/waic_jp/webjis-x-83413-99188222
+https
+://www.slideshare.net/waic_jp/webjis-x-83413-99188222
 
 ---
 ## INSPIRED BY USER! 立ち上げの思い
