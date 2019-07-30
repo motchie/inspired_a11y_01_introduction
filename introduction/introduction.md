@@ -154,3 +154,7 @@ UXを構成する要素には、Useful (役に立つ)・Usable (使いやすい)
 
 ![h:300px](https://www.bookslope.jp/blog/wp-content/uploads/2012/07/The-User-Experience-Honeycomb.002-001-300x225.png)
 [Evaluation method of UX “The User Experience Honeycomb”](https://bookslope.jp/blog/2012/07/evaluationuxhoneycomb.html)
+
+### つまり
+- アクセシビリティはCXの土台である
+- CXを設計・実装する人はアクセシビリティを意識することになる
