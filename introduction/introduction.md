@@ -28,7 +28,7 @@ size: 16:9
 ## アクセシビリティとは?
 
 - 「アクセスのしやすさ」の意味。転じて、製品やサービスの利用しやすさという意味でも使われる([出典](https://waic.jp/knowledge/accessibility/))。
-- ユーザーには年齢や病気などで以下のような特性があり、これらを考慮して、Webサイト、Webアプリ、スマホアプリを、より多くのユーザーがより多くの利用環境からより多くの場面で利用できるようにすること([出典](https://www.slideshare.net/waic_jp/webjis-x-83413-99188222))。
+- ユーザーには年齢や病気などで以下のような特性があり、これらを考慮して、<br>Webサイト、Webアプリ、スマホアプリを、より多くのユーザーがより多くの利用環境からより多くの場面で利用できるようにすること([出典](https://www.slideshare.net/waic_jp/webjis-x-83413-99188222))。
     - 見ることができない(全盲の視覚障害)
     - 見えづらい(弱視、ロービジョン、老眼、屋外)
     - 聴くことができない(聴覚障害、オフィス、イヤホンがない)
@@ -152,9 +152,20 @@ UXを構成する要素には、Useful (役に立つ)・Usable (使いやすい)
 
 ## UXハニカムとアクセシビリティ(2)
 
-![h:300px](https://www.bookslope.jp/blog/wp-content/uploads/2012/07/The-User-Experience-Honeycomb.002-001-300x225.png)
+![h:450px](https://www.bookslope.jp/blog/wp-content/uploads/2012/07/The-User-Experience-Honeycomb.002-001-300x225.png)
 [Evaluation method of UX “The User Experience Honeycomb”](https://bookslope.jp/blog/2012/07/evaluationuxhoneycomb.html)
 
-### つまり
+---
+
+## つまり
+
 - アクセシビリティはCXの土台である
-- CXを設計・実装する人はアクセシビリティを意識することになる
+- CXを設計・実装する人はアクセシビリティを意識する必要がある
+
+## まとめ(再掲)
+
+1. Web以外にもアクセシビリティは必要だ！
+2. 日本の**モバイルアプリやWebアプリ**をアクセシブルにしたい！
+3. アクセシビリティの大切さを実感するには当事者の利用状況を見るのが一番だ！
+4. アクセシビリティの問題を知るには、アクセシブルでないアプリを取り上げざるを得ない
+5. アクセシビリティはCXの土台である
