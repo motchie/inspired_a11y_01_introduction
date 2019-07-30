@@ -27,16 +27,14 @@ size: 16:9
 ---
 ## アクセシビリティとは?
 
-- 「アクセスのしやすさ」の意味。転じて、製品やサービスの利用しやすさという意味でも使われる([アクセシビリティとは](https://waic.jp/knowledge/accessibility/)より)。
-- ユーザーには年齢や病気などで以下のような特性があり、これらを考慮して、Webサイト、Webアプリ、スマホアプリを、より多くのユーザーがより多くの利用環境からより多くの場面で利用できるようにすること。
+- 「アクセスのしやすさ」の意味。転じて、製品やサービスの利用しやすさという意味でも使われる([出典](https://waic.jp/knowledge/accessibility/))。
+- ユーザーには年齢や病気などで以下のような特性があり、これらを考慮して、Webサイト、Webアプリ、スマホアプリを、より多くのユーザーがより多くの利用環境からより多くの場面で利用できるようにすること([出典](https://www.slideshare.net/waic_jp/webjis-x-83413-99188222))。
     - 見ることができない(全盲の視覚障害)
     - 見えづらい(弱視、ロービジョン、老眼、屋外)
     - 聴くことができない(聴覚障害、オフィス、イヤホンがない)
     - 聴こえづらい(難聴、加齢による衰え、騒がしい)
     - 細かい操作が困難(上肢不自由、指や手が震える etc.)
     - 認知・理解・学習(認知・言語・学習障害、ディスレクシア、...)
-
-[これでわかる！Webアクセシビリティって？JIS X 8341-3って？](https://www.slideshare.net/waic_jp/webjis-x-83413-99188222)より
 
 ---
 ## INSPIRED BY USER! 立ち上げの思い
@@ -115,17 +113,19 @@ PCやモバイル端末などを使う際に支援が必要なユーザーに向
 
 ## スマホアプリの分野では?
 
-- スマホでは、UIとしては[Webよりアプリの利用時間が圧倒的に長い状況に](https://www.mobiloud.com/blog/mobile-apps-vs-the-mobile-web/)
+- スマホでは、UIとしては[Webよりアプリの利用時間が圧倒的に長い](https://www.mobiloud.com/blog/mobile-apps-vs-the-mobile-web/)
 - スマホアプリ開発者向け情報でアクセシビリティのトピックをあまり聞かない
-- 障害当事者の方がVoiceOverでスマホアプリを利用できないなど支障が出てきている
+- [障害当事者の方がVoiceOverでスマホアプリを利用できないなど支障が出てきている](https://www.javis.jp/pipermail/salon/20190405/000116.html)
+- Webアクセシビリティのような公的なガイドラインは存在しない
+- [iOS](https://developer.apple.com/jp/accessibility/ios/)や[Android](https://developer.android.com/guide/topics/ui/accessibility?authuser=1&hl=ja)の開発者向けガイドは存在する
 
 ---
 
 ## アクセシビリティとビジネス
 
-- アクセシビリティ関連のイベントでは、Web制作会社よりサービス企業の発表が多い印象
+- アクセシビリティのイベントでは、Web制作会社よりサービス企業の発表が多い印象
   - 自社サービス、自社メディアだとアクセシビリティにも力を入れる？
-  - [アクセシビリティの祭典](https://accfes.com/2019/session/)や[JAC](https://japan-a11y-conf.com/vol2/)でも、自社サービス、自社メディアが多い印象
+  - [アクセシビリティの祭典](https://accfes.com/2019/)や[JAC](https://japan-a11y-conf.com/vol2/)でも、自社サービス、自社メディアが多い印象
 - 受託開発されるスマホアプリは、ずっとアクセシブルでないままか?
 - 公共サイト以外はアクセシブルでなくていいのか?
 - 多くの人が利用するスマホ/Webアプリは、公共でなくてもアクセシブルであるべきでは?
@@ -136,9 +136,21 @@ PCやモバイル端末などを使う際に支援が必要なユーザーに向
 
 ## CXとアクセシビリティ
 
-- CX(Customer Experience): 「顧客（＝カスタマー）としてのあらゆる体験」を指す言葉。サービス・製品を認識してから購入を検討、購入した場合はそれを使用するという一連の流れのすべてにおける体験のこと([「カスタマーエクスペリエンス（CX）」に大注目、UI/UXと何が違う？](https://tech.nikkeibp.co.jp/it/atclact/active/15/051900050/031400083/)より)
+- CX(Customer Experience): 「顧客（＝カスタマー）としてのあらゆる体験」を指す言葉。サービス・製品を認識してから購入を検討、購入した場合はそれを使用するという一連の流れのすべてにおける体験のこと([出典](https://tech.nikkeibp.co.jp/it/atclact/active/15/051900050/031400083/))
 
-- UIとUXとCX? 
-https://oku-log.com/wp-content/uploads/2019/06/cx_ux_ui-720x343.jpg
+- UIとUXとCX? [出典](https://www.innovation.co.jp/urumo/cx/)
+![UXはUIを含み、CXはUXを含み、ブランドはCXを含む包含関係を示す図 h:300px](https://www.innovation.co.jp/urumo/images/2018/02/cx-2.png)
 
+---
 
+## UXハニカムとアクセシビリティ(1)
+User Experience Honeycomb in ["User Experience Design"](http://semanticstudios.com/user_experience_design/) by Peter Morville
+![User Experience Honeycomb h:300px](https://semanticstudios.com/wp-content/uploads/2004/06/honeycomb.jpg)
+UXを構成する要素には、Useful (役に立つ)・Usable (使いやすい)・Desirable (望ましい)・Findable (探しやすい)・Accessible (アクセスしやすい)・Credible (信頼できる)・Valuable (価値がある) という7つの要素で考えられる([出典](https://bookslope.jp/blog/2012/07/evaluationuxhoneycomb.html))
+
+---
+
+## UXハニカムとアクセシビリティ(2)
+
+![h:300px](https://www.bookslope.jp/blog/wp-content/uploads/2012/07/The-User-Experience-Honeycomb.002-001-300x225.png)
+[Evaluation method of UX “The User Experience Honeycomb”](https://bookslope.jp/blog/2012/07/evaluationuxhoneycomb.html)
